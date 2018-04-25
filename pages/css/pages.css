@@ -16,3 +16,24 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+
+/*********** PAGINA INTRO ****************************/
+
+.introductie{
+    width: 70%;
+}
+
+/*********** PAGINA CONCURRENTIE *********************/
+
+.analyse{margin-bottom: 50px;}
+
+div > section > h2{
+    border-bottom: #333 solid 1px;
+}
+
+
+/*********** PAGINA SCENARIOS ************************/
+
+/*********** PAGINA STYLEGUIDE ***********************/
+
