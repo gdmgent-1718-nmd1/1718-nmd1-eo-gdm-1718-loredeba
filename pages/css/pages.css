@@ -37,3 +37,64 @@ div > section > h2{
 
 /*********** PAGINA STYLEGUIDE ***********************/
 
+
+
+
+/** BUTTON  **/
+
+a{
+    text-decoration: none;
+}
+
+.buttongroup .content p
+{
+    color: #222222;
+    text-align: center;
+}
+
+.buttongroup .content p:hover
+{
+    color: #cc589c;
+}
+
+
+
+
+
+.buttongroup {
+            position: relative;
+            background-color:white;
+            width: 10%;
+            height: 50px;
+        }
+
+.corner {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 20px 20px;
+            border-color: transparent transparent black transparent;
+            right: 0px;
+            bottom: 0px;
+        }
+
+.buttongroup:hover {
+            display: block;
+            background-color: black;
+            width: 10%;
+            height: 50px;
+        }
+
+.corner:hover {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 20px 20px;
+            border-color: transparent transparent #cc589c transparent;
+            right: 0px;
+            bottom: 0px;
+        }
+
+        
