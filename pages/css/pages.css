@@ -46,17 +46,17 @@ a{
     text-decoration: none;
 }
 
-.buttongroup .content p
+.buttongroup
 {
     color: #222222;
     text-align: center;
 }
 
-.buttongroup .content p:hover
+/* .buttongroup .content p:hover
 {
     color: #cc589c;
 }
-
+ */
 
 
 
@@ -84,17 +84,11 @@ a{
             background-color: black;
             width: 10%;
             height: 50px;
+            color: #cc589c;
         }
 
-.corner:hover {
-            position: absolute;
-            width: 0;
-            height: 0;
-            border-style: solid;
-            border-width: 0 0 20px 20px;
+.buttongroup:hover .corner {
             border-color: transparent transparent #cc589c transparent;
-            right: 0px;
-            bottom: 0px;
         }
 
         
