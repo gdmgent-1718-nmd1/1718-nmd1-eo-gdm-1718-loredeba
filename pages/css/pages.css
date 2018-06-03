@@ -238,6 +238,17 @@ p.tickets{
     width: 30%;
 }
 
+button{
+    background-color: #222222;
+    color: #e3e3e3;
+    padding: 5%;
+}
+
+button:hover{
+    background-color: #a1a1a1;
+    color: #222222;
+}
+
 
 /** KLEUREN **/
 
